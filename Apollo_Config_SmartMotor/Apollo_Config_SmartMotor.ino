@@ -1,4 +1,7 @@
 // Application code is at bottom of this file
+// Plug the Apollo into the computer, a battery into the Motor power port, and a single Smart Motor into one of the Smart Motor Ports.  
+// That motor will be addressed by the broadcast ID of 254 and reset to a new ID.
+// The voltage of the battery will be printed out to the Serial Terminal to verify the change.
 
 #define GET_LOW_BYTE(A) (uint8_t)((A))
 #define GET_HIGH_BYTE(A) (uint8_t)((A) >> 8)
